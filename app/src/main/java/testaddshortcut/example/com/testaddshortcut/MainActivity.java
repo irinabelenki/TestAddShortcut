@@ -28,8 +28,10 @@ public class MainActivity extends ActionBarActivity {
                 //String packageName = "";
                 //String className = "";
                 MainActivity.this.addShortcut(MainActivity.this,
-                                                contactName, phoneNumber
-                                                //packageName, className
+                                                contactName,
+                                                phoneNumber
+                                                // packageName,
+                                                // className
                                                 );
             }
         });
@@ -58,8 +60,10 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void addShortcut(Context context,
-                            String contactName, String phoneNumber
-                            //String packageName, String className
+                            String contactName,
+                            String phoneNumber
+                            // String packageName,
+                            // String className
                             ) {
 
         Uri numberUri = Uri.parse("tel:" + phoneNumber);
